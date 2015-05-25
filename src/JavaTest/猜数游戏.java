@@ -14,7 +14,7 @@ public class 猜数游戏 {
 		int input;
 		int count = 0;
 		
-		System.out.println("请输入您要猜的数！");
+		System.out.println("请输 0 ~ 100 间入您要猜的数！");
 		
 		do {
 			input = in.nextInt();
