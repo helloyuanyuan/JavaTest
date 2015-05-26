@@ -1,17 +1,49 @@
 package JavaTest;
 
-import java.util.Scanner;
-
 public class A0013_指定质数 {
 
-	@SuppressWarnings({ "resource" })
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-		Scanner in = new Scanner(System.in);
-		int input = in.nextInt();
+		A0013_指定质数 test = new A0013_指定质数();
+		// test.指定范围(10);
+		test.指定数量(100);
 
-		System.out.println("Your input is: " + input);
+	}
+
+	public void 指定范围(int n) {
+
+		for (int i = 2; i <= n; i++) {
+			boolean isPrime = true;
+			for (int j = 2; j < i; j++) {
+				if (i % j == 0) {
+					isPrime = false;
+					break;
+				}
+			}
+			if (isPrime == true) {
+				System.out.print(i + " ");
+			}
+		}
+
+	}
+
+	public void 指定数量(int s) {
+
+		int count = 0;
+
+		for (int i = 2; count < s; i++) {
+			boolean isPrime = true;
+			for (int j = 2; j < i; j++) {
+				if (i % j == 0) {
+					isPrime = false;
+					break;
+				}
+			}
+			if (isPrime == true) {
+				System.out.println("第" + (count + 1) + "个质数是： " + i);
+				count++;
+			}
+		}
 
 	}
 
