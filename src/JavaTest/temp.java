@@ -11,6 +11,8 @@ public class temp {
 		Scanner in = new Scanner(System.in);
 		int input = in.nextInt();
 
+		System.out.println("Your input is: " + input);
+
 	}
 
 }
