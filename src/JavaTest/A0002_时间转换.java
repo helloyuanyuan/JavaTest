@@ -2,7 +2,7 @@ package JavaTest;
 
 import java.util.Scanner;
 
-public class 时间转换 {
+public class A0002_时间转换 {
 
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {

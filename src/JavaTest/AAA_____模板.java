@@ -2,7 +2,7 @@ package JavaTest;
 
 import java.util.Scanner;
 
-public class temp {
+public class AAA_____Ä£°å {
 
 	@SuppressWarnings({ "resource" })
 	public static void main(String[] args) {

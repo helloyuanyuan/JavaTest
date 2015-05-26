@@ -2,7 +2,7 @@ package JavaTest;
 
 import java.util.Scanner;
 
-public class 論傚數呾 {
+public class A0010_論傚數呾 {
 
 	@SuppressWarnings({ "resource" })
 	public static void main(String[] args) {

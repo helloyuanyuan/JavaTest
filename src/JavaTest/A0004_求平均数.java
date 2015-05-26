@@ -2,7 +2,7 @@ package JavaTest;
 
 import java.util.Scanner;
 
-public class 求平均数 {
+public class A0004_求平均数 {
 
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {

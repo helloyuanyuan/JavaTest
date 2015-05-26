@@ -2,7 +2,7 @@ package JavaTest;
 
 import java.util.Scanner;
 
-public class 奇数偶数 {
+public class A0007_奇数偶数 {
 
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {

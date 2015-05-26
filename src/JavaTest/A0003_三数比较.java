@@ -2,7 +2,7 @@ package JavaTest;
 
 import java.util.Scanner;
 
-public class 三数比较 {
+public class A0003_三数比较 {
 
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {

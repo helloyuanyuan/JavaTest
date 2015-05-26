@@ -2,7 +2,7 @@ package JavaTest;
 
 import java.util.Scanner;
 
-public class 统计位数 {
+public class A0006_统计位数 {
 
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {

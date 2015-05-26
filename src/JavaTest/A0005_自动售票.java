@@ -2,7 +2,7 @@ package JavaTest;
 
 import java.util.Scanner;
 
-public class 自动售票 {
+public class A0005_自动售票 {
 
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {

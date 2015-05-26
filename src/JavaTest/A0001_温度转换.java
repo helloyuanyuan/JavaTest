@@ -2,7 +2,7 @@ package JavaTest;
 
 import java.util.Scanner;
 
-public class 温度转换 {
+public class A0001_温度转换 {
 
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {

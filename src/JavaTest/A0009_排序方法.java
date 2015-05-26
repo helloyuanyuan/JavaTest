@@ -1,6 +1,6 @@
 package JavaTest;
 
-public class 排序方法 {
+public class A0009_排序方法 {
 
 	/**
 	 * @param args

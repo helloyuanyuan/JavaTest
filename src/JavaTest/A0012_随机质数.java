@@ -1,6 +1,6 @@
 package JavaTest;
 
-public class 随机质数 {
+public class A0012_随机质数 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

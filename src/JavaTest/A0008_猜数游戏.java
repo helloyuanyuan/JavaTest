@@ -2,7 +2,7 @@ package JavaTest;
 
 import java.util.Scanner;
 
-public class 猜数游戏 {
+public class A0008_猜数游戏 {
 
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
