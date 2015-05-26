@@ -1,6 +1,7 @@
 package JavaTest;
 
 import java.math.BigDecimal;
+import java.util.Scanner;
 
 public class A0017_转大小写 {
 
@@ -11,11 +12,14 @@ public class A0017_转大小写 {
 	private static final String CN_ZEOR_FULL = "零元" + CN_FULL;
 	private static final int MONEY_PRECISION = 2;
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
-		double money = 1111;
+		System.out.println("请输入要转换的金额：");
+		Scanner in = new Scanner(System.in);
+		double money = in.nextDouble();
 		BigDecimal numberOfMoney = new BigDecimal(money);
 		String s = A0017_转大小写.number2CNMontrayUnit(numberOfMoney);
-		System.out.println("你输入的金额为：【" + money + "】   #--# [" + s.toString() + "]");
+		System.out.println("你输入的金额为：【" + money + "】---> [" + s.toString() + "]");
 	}
 
 	public static String number2CNMontrayUnit(BigDecimal numberOfMoney) {
