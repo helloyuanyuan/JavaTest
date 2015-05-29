@@ -9,20 +9,36 @@ public class A0004_求平均数 {
 		// TODO Auto-generated method stub
 
 		Scanner in = new Scanner(System.in);
-		int number;
+
+		int input;
+		int[] number = new int[100];
 		int sum = 0;
 		int count = 0;
+		double avg;
 
 		System.out.println("请输入：");
-		number = in.nextInt();
-		
-		while (number != -1) {
-			sum += number;
+		input = in.nextInt();
+
+		while (input != -1) {
+			number[count] = input;
+			sum += input;
 			count++;
-			number = in.nextInt();
+			input = in.nextInt();
 		}
 
-		System.out.println("sum = " + sum + "; count = " + count + "; avg = " + (sum / (count*1.0)) + ";");
+		avg = sum / (count * 1.0);
+
+		if (count > 0) {
+
+			for (int i = 0; i < count; i++) {
+				if (number[i] > avg) {
+					System.out.println(number[i]);
+				}
+			}
+
+			System.out.println("sum = " + sum + "; count = " + count + "; avg = " + avg + ";");
+		}
+
 	}
 
 }
