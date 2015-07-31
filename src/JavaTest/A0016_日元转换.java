@@ -5,7 +5,7 @@ public class A0016_日元转换 {
 	public static void main(String[] args) {
 		A0016_日元转换 test = new A0016_日元转换();
 		test.cny(30.3094);
-		test.jpy(1860);
+		test.jpy(14482);
 	}
 
 	public void cny(double c) {
